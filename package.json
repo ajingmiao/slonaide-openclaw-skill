@@ -1,0 +1,32 @@
+{
+  "name": "aidenote-openclaw-bridge-skill",
+  "version": "3.0.4",
+  "description": "AideNote OpenClaw remote bridge installer skill",
+  "author": "AideNote Team",
+  "license": "MIT-0",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "openclaw.plugin.json",
+    "SKILL.md",
+    "README.md",
+    "src"
+  ],
+  "openclaw": {
+    "extensions": [
+      "./index.js"
+    ],
+    "install": {
+      "clawhubSpec": "slonaide",
+      "defaultChoice": "clawhub",
+      "minHostVersion": ">=2026.5.19"
+    },
+    "compat": {
+      "pluginApi": ">=2026.5.19"
+    },
+    "build": {
+      "openclawVersion": "2026.5.19"
+    }
+  }
+}
