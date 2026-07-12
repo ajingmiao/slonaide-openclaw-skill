@@ -1,0 +1,49 @@
+{
+  "id": "slonaide",
+  "name": "AideNote",
+  "version": "3.0.4",
+  "description": "AideNote recording notes and OpenClaw remote bridge",
+  "main": "index.js",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "AideNote API Key",
+        "secret": true
+      },
+      "baseUrl": {
+        "type": "string",
+        "description": "AideNote API base URL",
+        "default": "https://api.aidenote.cn"
+      },
+      "bridgeInstallerUrl": {
+        "type": "string",
+        "description": "macOS bridge installer script URL",
+        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.0/install-macos.sh"
+      },
+      "bridgeInstallerSha256": {
+        "type": "string",
+        "description": "macOS bridge installer script SHA-256",
+        "default": "c5f019f6ba563d23aaca8f8818e2e7f4e8262ddd71b5570ea7a1d2fc5ab0adea"
+      },
+      "bridgeTunnelBaseUrl": {
+        "type": "string",
+        "description": "macOS bridge binary base URL",
+        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.0"
+      },
+      "bridgeRelayHost": {
+        "type": "string",
+        "description": "AideNote relay host",
+        "default": "api.aidenote.cn"
+      },
+      "openClawLocalPort": {
+        "type": "number",
+        "description": "Local OpenClaw Gateway port",
+        "default": 18789
+      }
+    },
+    "required": ["apiKey"]
+  }
+}
