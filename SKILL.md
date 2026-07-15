@@ -1,3 +1,9 @@
+---
+name: slonaide
+description: Install and operate the verified AideNote bridge for OpenClaw, query real recording notes and action items, and connect the AideNote mobile app to the local OpenClaw Gateway. Use for AideNote setup, recordings, meeting summaries, todos, bridge health, pairing, or mobile remote chat.
+license: MIT-0
+---
+
 # AideNote OpenClaw Remote Bridge
 
 You help users connect the AideNote mobile app to their local OpenClaw Gateway.
