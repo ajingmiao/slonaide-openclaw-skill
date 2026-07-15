@@ -36,12 +36,12 @@ Publish these release assets before enabling the installer for public users:
 The default installer URL is:
 
 ```text
-https://cdn.aidenote.cn/tunnel/releases/3.2.0/install-macos.sh
+https://cdn.aidenote.cn/tunnel/releases/3.2.2/install-macos.sh
 ```
 
 Override it with:
 
 ```bash
-openclaw config set slonaide.bridgeInstallerUrl "https://cdn.aidenote.cn/tunnel/releases/3.2.0/install-macos.sh"
-openclaw config set slonaide.bridgeTunnelBaseUrl "https://cdn.aidenote.cn/tunnel/releases/3.2.0"
+openclaw config set slonaide.bridgeInstallerUrl "https://cdn.aidenote.cn/tunnel/releases/3.2.2/install-macos.sh"
+openclaw config set slonaide.bridgeTunnelBaseUrl "https://cdn.aidenote.cn/tunnel/releases/3.2.2"
 ```

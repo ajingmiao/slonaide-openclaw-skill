@@ -5,9 +5,9 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
 const DEFAULT_INSTALLER_URL =
-  'https://cdn.aidenote.cn/tunnel/releases/3.2.0/install-macos.sh';
+  'https://cdn.aidenote.cn/tunnel/releases/3.2.2/install-macos.sh';
 const DEFAULT_INSTALLER_SHA256 =
-  'c5f019f6ba563d23aaca8f8818e2e7f4e8262ddd71b5570ea7a1d2fc5ab0adea';
+  '8e673bf62dbf426f7f0313c0f4cbd97a988002064b77ed1dd98481fb0ddfdeb5';
 const LABEL = 'cn.aidenote.openclaw-tunnel';
 
 export function registerBridgeTools(api) {
@@ -60,7 +60,7 @@ export function registerBridgeTools(api) {
           AIDE_NOTE_API_KEY: config.apiKey,
           AIDE_NOTE_RELAY_HOST: config.bridgeRelayHost || 'api.aidenote.cn',
           AIDE_NOTE_TUNNEL_BASE_URL:
-            config.bridgeTunnelBaseUrl || 'https://cdn.aidenote.cn/tunnel/releases/3.2.0',
+            config.bridgeTunnelBaseUrl || 'https://cdn.aidenote.cn/tunnel/releases/3.2.2',
           AIDE_NOTE_TOKEN_ENDPOINT:
             config.tokenEndpoint ||
             `${config.baseUrl || 'https://api.aidenote.cn'}/api/UserapikeyMstr/GetToken/{apiKey}`,

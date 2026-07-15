@@ -1,7 +1,7 @@
 {
   "id": "slonaide",
   "name": "AideNote",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "AideNote recording notes and OpenClaw remote bridge",
   "main": "index.js",
   "configSchema": {
@@ -21,17 +21,17 @@
       "bridgeInstallerUrl": {
         "type": "string",
         "description": "macOS bridge installer script URL",
-        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.0/install-macos.sh"
+        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.2/install-macos.sh"
       },
       "bridgeInstallerSha256": {
         "type": "string",
         "description": "macOS bridge installer script SHA-256",
-        "default": "c5f019f6ba563d23aaca8f8818e2e7f4e8262ddd71b5570ea7a1d2fc5ab0adea"
+        "default": "8e673bf62dbf426f7f0313c0f4cbd97a988002064b77ed1dd98481fb0ddfdeb5"
       },
       "bridgeTunnelBaseUrl": {
         "type": "string",
         "description": "macOS bridge binary base URL",
-        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.0"
+        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.2"
       },
       "bridgeRelayHost": {
         "type": "string",
