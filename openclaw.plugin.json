@@ -1,7 +1,7 @@
 {
   "id": "slonaide",
   "name": "AideNote",
-  "version": "3.0.5",
+  "version": "3.0.8",
   "description": "AideNote recording notes and OpenClaw remote bridge",
   "main": "index.js",
   "configSchema": {
@@ -21,17 +21,27 @@
       "bridgeInstallerUrl": {
         "type": "string",
         "description": "macOS bridge installer script URL",
-        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.2/install-macos.sh"
+        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.6/install-macos.sh"
       },
       "bridgeInstallerSha256": {
         "type": "string",
         "description": "macOS bridge installer script SHA-256",
-        "default": "8e673bf62dbf426f7f0313c0f4cbd97a988002064b77ed1dd98481fb0ddfdeb5"
+        "default": "5afb27d2640b73689217775989253c0cdea05c4f35ea0ee9f86bb4c0551070cd"
+      },
+      "bridgeWindowsInstallerUrl": {
+        "type": "string",
+        "description": "Windows bridge installer script URL",
+        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.6/install-windows.ps1"
+      },
+      "bridgeWindowsInstallerSha256": {
+        "type": "string",
+        "description": "Windows bridge installer script SHA-256",
+        "default": "5a5a3ecee34e3dce6d2248744bcac854296ed0f4c3afab0f3a344c9f36d908f6"
       },
       "bridgeTunnelBaseUrl": {
         "type": "string",
-        "description": "macOS bridge binary base URL",
-        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.2"
+        "description": "bridge binary base URL",
+        "default": "https://cdn.aidenote.cn/tunnel/releases/3.2.6"
       },
       "bridgeRelayHost": {
         "type": "string",

@@ -22,8 +22,8 @@ slonaide_bridge_status
 
 Requirements:
 
-- The user must be on macOS.
+- The user must be on macOS or Windows.
 - OpenClaw should have been launched at least once so `~/.openclaw/openclaw.json` exists.
 - `slonaide.apiKey` must be configured.
 
-After setup succeeds, tell the user to open the AideNote app and tap the robot icon to start the remote conversation.
+After setup succeeds, tell the user to open the AideNote app and tap the robot icon to start the remote conversation. The installer must remain pinned to the verified 3.2.6 script hashes; on Windows, the skill applies the two known PowerShell compatibility substitutions only after SHA-256 verification.
